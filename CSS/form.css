@@ -1,0 +1,55 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+}
+
+.container-radio{
+    display: flex;
+}
+.container-radio div{
+    padding: 10px;
+}
+
+form label{
+    color:#A4CFBE ;
+    font-weight: bold;
+    margin-bottom: 5px;
+}  
+
+form input{
+    border-radius : 10px;
+    border: 3px solid #A4CFBE;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+
+form input[type='file']{
+    color: #A4CFBE;
+}
+form input::file-selector-button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}    
+
+form input:focus{
+    outline: none;
+    border: 3px solid #6FA598;
+}
+
+.container-admin-banner{
+    text-align: center;
+}
+
+form input:hover{
+   transform: scale(1.07);
+   transition: all 0.3s ease;
+   border: 3px solid #6FA598;
+}
